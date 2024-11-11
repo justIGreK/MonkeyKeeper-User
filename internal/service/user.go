@@ -5,7 +5,7 @@ import (
 	"errors"
 	"log"
 
-	"github.com/justIGreK/MonkeyKeeper-User/internal/models"
+	"github.com/justIGreK/MoneyKeeper-User/internal/models"
 )
 
 type UserRepository interface {

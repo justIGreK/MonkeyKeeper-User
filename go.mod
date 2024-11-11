@@ -1,4 +1,4 @@
-module github.com/justIGreK/MonkeyKeeper-User
+module github.com/justIGreK/MoneyKeeper-User
 
 go 1.23.2
 

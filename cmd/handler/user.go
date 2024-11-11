@@ -4,7 +4,7 @@ import (
 	"context"
 
 	userProto "github.com/justIGreK/MoneyKeeper-User/pkg/go/user"
-	"github.com/justIGreK/MonkeyKeeper-User/internal/models"
+	"github.com/justIGreK/MoneyKeeper-User/internal/models"
 )
 
 type UserServiceServer struct {

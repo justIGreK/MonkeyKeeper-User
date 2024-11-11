@@ -11,12 +11,12 @@ import (
 )
 
 const (
-	dbname                = "budgetdb"
+	dbname                = "mkuser"
 	userCollection        = "users"
 )
 
 func CreateMongoClient(ctx context.Context) *mongo.Client {
-	dbURI := "mongodb://localhost:27088"
+	dbURI := "mongodb://localhost:27020"
 	client, err := mongo.Connect(ctx, options.Client().ApplyURI(dbURI))
 	if err != nil {
 		log.Fatalf("Failed to create MongoDB client: %v", err)

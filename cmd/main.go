@@ -5,9 +5,9 @@ import (
 	"log"
 	"net"
 
-	"github.com/justIGreK/MonkeyKeeper-User/cmd/handler"
-	"github.com/justIGreK/MonkeyKeeper-User/internal/repository"
-	"github.com/justIGreK/MonkeyKeeper-User/internal/service"
+	"github.com/justIGreK/MoneyKeeper-User/cmd/handler"
+	"github.com/justIGreK/MoneyKeeper-User/internal/repository"
+	"github.com/justIGreK/MoneyKeeper-User/internal/service"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 )
