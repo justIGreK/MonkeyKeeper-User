@@ -1,4 +1,4 @@
-package grpchandler
+package handler
 
 import (
 	userProto "github.com/justIGreK/MoneyKeeper-User/pkg/go/user"

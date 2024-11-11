@@ -3,7 +3,6 @@ module github.com/justIGreK/MonkeyKeeper-User
 go 1.23.2
 
 require (
-	github.com/justIGreK/MoneyKeeper/BudgetService v0.0.0-20241109140949-76ee1e2c8583
 	go.mongodb.org/mongo-driver v1.17.1
 	google.golang.org/grpc v1.68.0
 	google.golang.org/protobuf v1.35.1
